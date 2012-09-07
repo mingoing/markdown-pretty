@@ -1,6 +1,6 @@
 {
   "name": "Markdown Pretty",
-  "version": "0.2",
+  "version": "0.2.1",
   "manifest_version": 2,
   "description": "一个让chrome能解析markdown文件(.md, .markdown,.text)的插件，并提供更加舒适中文阅读环境",
   "icons": {
@@ -15,7 +15,7 @@
         "http://*/*.markdown*", "file://*/*.markdown",
         "http://*/*.text"     , "file://*/*.text"
       ],
-      "css": ["bootstrap.css","zh.css"],
+      "css": ["pretty.css"],
       "js": ["showdown.js", "init.js"]
     }
   ],
